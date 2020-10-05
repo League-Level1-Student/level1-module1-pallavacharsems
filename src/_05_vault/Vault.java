@@ -1,7 +1,7 @@
 package _05_vault;
 
 public class Vault {
-int secretCode = 9;
+int secretCode = 14056;
 
 boolean tryCode(int code) {
 	if (code == secretCode) {
@@ -9,6 +9,12 @@ boolean tryCode(int code) {
 	} else {
 		return false;
 	}
+
+}
+int James;
+Vault(int j){
+	this.James = j;
 }
 }
+
 
